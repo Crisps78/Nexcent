@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+:root {
+  /* Cores primárias */
+  --cor-0: #4CAF4F;  /* Verde escuro */
+  --cor-1: #28cb8b; /* Verde */
+  --cor-2: #263238; /* Black */
+  --cor-3: #2194f3; /* Azul */
+
+  /* Cores neutras */
+
+  --cor-5: #4d4d4d; /* Cinza médio escuro */
+  --cor-6: #717171; /* Cinza médio */
+  --cor-7: #89939e; /* Cinza claro */
+  --cor-8: #abbed1; /* Cinza azulado claro */
+  --cor-9: #f5f7fa; /* Cinza muito claro */
+  --cor-10:#ffffff; /* Branco */
+}
+
+/* Fontes */
+h1 {
+  font-size: 64px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+}

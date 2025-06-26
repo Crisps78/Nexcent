@@ -1,0 +1,119 @@
+
+
+body {
+  
+  background-color: #F5F5F5;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+/* Cabeçalho */
+header {
+  background-color: var(--cor-10);
+  width: 1440px;
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.LogoNexcent{
+  width: 154px;
+  height: 24px;
+  margin-left: 154px;
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--cor-1);
+}
+
+/* Botões */
+.btn {
+  display: flex;
+  margin-right: 120px;
+  
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login {
+  background-color: transparent;
+  color: var(--cor-1);
+  border: 2px solid var(--cor-1);
+}
+
+.login:hover {
+  background-color: var(--cor-0);
+  color: #fff;
+}
+
+.signup {
+  background-color: var(--cor-0);
+  color: #fff;
+}
+
+.signup:hover {
+  background-color: var(--cor-1);
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centraliza verticalmente */
+ 
+}
+
+/* Texto à esquerda */
+.hero-text {
+  margin: 161px 0px 245px 144px;
+}
+
+.hero-text h1 {
+  line-height: 1.2;
+}
+
+.hero-text .span1 {
+  font-size: 64px;
+  color: var(--cor-0);
+}
+
+.hero-text .span2 {
+  font-size: 16px;
+  color: #555;
+  font-weight: 400;
+  display: block;
+  
+}
+
+.hero > img{
+  width: 391px;
+  height: 407px;
+  margin-right: 144px;
+}
+main {
+  width: 1440px;
+  margin: auto;
+}
