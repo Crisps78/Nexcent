@@ -6,28 +6,24 @@
   box-sizing: border-box;
   border: none;
 }
-
 :root {
-  /* Cores primárias */
-  --cor-0: #4CAF4F;  /* Verde escuro */
-  --cor-1: #28cb8b; /* Verde */
-  --cor-2: #263238; /* Black */
-  --cor-3: #2194f3; /* Azul */
+  --verde-principal: #4CAF4F;
+  --verde-secundario: #28cb8b;
+  --azul-destaque: #2194f3;
+  --preto-principal: #263238;
 
-  /* Cores neutras */
-
-  --cor-5: #4d4d4d; /* Cinza médio escuro */
-  --cor-6: #717171; /* Cinza médio */
-  --cor-7: #89939e; /* Cinza claro */
-  --cor-8: #abbed1; /* Cinza azulado claro */
-  --cor-9: #f5f7fa; /* Cinza muito claro */
-  --cor-10:#ffffff; /* Branco */
+  --cinza-escuro: #4d4d4d;
+  --cinza-medio: #717171;
+  --cinza-claro: #89939e;
+  --cinza-azulado: #abbed1;
+  --cinza-fundo: #f5f7fa;
+  --branco: #ffffff;
 }
 
 /* Fontes */
 h1 {
   font-size: 64px;
-  font-weight: 100;
+  font-weight: 600;
 }
 
 h2 {

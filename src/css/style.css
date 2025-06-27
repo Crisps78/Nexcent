@@ -1,31 +1,27 @@
 
-
-body {
-  
-  background-color: #F5F5F5;
-  color: #333;
-  line-height: 1.6;
+/* Container padrão */
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-
-
 
 /* Cabeçalho */
 header {
   background-color: var(--cor-10);
-  width: 1440px;
   height: 84px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
 }
 
-.LogoNexcent{
+.LogoNexcent {
   width: 154px;
   height: 24px;
-  margin-left: 154px;
 }
 
+/* Navegação */
 nav {
   display: flex;
   gap: 50px;
@@ -44,17 +40,16 @@ nav a:hover {
 /* Botões */
 .btn {
   display: flex;
-  margin-right: 120px;
-  
+  gap: 16px;
 }
 
 button {
   padding: 0.5rem 1rem;
-  border: none;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  border: none;
 }
 
 .login {
@@ -77,18 +72,17 @@ button {
   background-color: var(--cor-1);
 }
 
-/* Hero */
-
+/* Hero Section */
 .hero {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Centraliza verticalmente */
- 
+  align-items: center;
+  gap: 2rem;
+  margin: 80px 0;
 }
 
-/* Texto à esquerda */
 .hero-text {
-  margin: 161px 0px 245px 144px;
+  flex: 1;
 }
 
 .hero-text h1 {
@@ -105,15 +99,10 @@ button {
   color: #555;
   font-weight: 400;
   display: block;
-  
 }
 
-.hero > img{
+.hero img {
   width: 391px;
-  height: 407px;
-  margin-right: 144px;
-}
-main {
-  width: 1440px;
-  margin: auto;
+  height: auto;
+  flex-shrink: 0;
 }
