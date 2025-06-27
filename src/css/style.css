@@ -9,7 +9,7 @@
 
 /* Cabeçalho */
 header {
-  background-color: var(--cor-10);
+  background-color: var(--branco);
   height: 84px;
   display: flex;
   justify-content: space-between;
@@ -34,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--cor-1);
+  color: var(--verde-secundario);
 }
 
 /* Botões */
@@ -54,22 +54,22 @@ button {
 
 .login {
   background-color: transparent;
-  color: var(--cor-1);
-  border: 2px solid var(--cor-1);
+  color: var(--verde-principal);
+  border: 2px solid var(--verde-secundario);
 }
 
 .login:hover {
-  background-color: var(--cor-0);
-  color: #fff;
+  background-color: var(--verde-principal);
+  color:var(--branco);
 }
 
 .signup {
-  background-color: var(--cor-0);
-  color: #fff;
+  background-color: var(--verde-principal);
+  color:var(--branco:);
 }
 
 .signup:hover {
-  background-color: var(--cor-1);
+  background-color: var(--verde-secundario);
 }
 
 /* Hero Section */
